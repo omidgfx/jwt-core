@@ -1,5 +1,5 @@
 {
-    "name": "web-token/jwt-core",
+    "name": "omidgfx/jwt-core",
     "description": "Core component of the JWT Framework.",
     "type": "library",
     "license": "MIT",
@@ -47,5 +47,13 @@
     },
     "conflict": {
         "spomky-labs/jose": "*"
+    },
+    "replace": {
+        "web-token/jwt-core": "self.version"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-3.2.x": "3.2.x-dev"
+        }
     }
 }
